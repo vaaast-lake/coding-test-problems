@@ -13,5 +13,5 @@ let output = [];
 const solution = (input) => {};
 
 solution(input);
-// fs.writeFileSync("/dev/stdout", output.join(""));
-fs.writeFileSync("../output.txt", output.join(""), (err) => console.error);
+// fs.writeFileSync("/dev/stdout", output.join("").trimEnd());
+fs.writeFileSync("../output.txt", output.join("").trimEnd(), (err) => console.error);
