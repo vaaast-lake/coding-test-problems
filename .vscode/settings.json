@@ -22,4 +22,8 @@
     "string_view": "cpp",
     "regex": "cpp"
   },
+  "[javascript]": {
+    "editor.formatOnSave": true,  // .js 파일에 대해서 저장 시 포맷팅 적용
+    "editor.defaultFormatter": "esbenp.prettier-vscode"  // Prettier 포맷터 설정
+  }
 }
